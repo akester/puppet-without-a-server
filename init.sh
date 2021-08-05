@@ -5,7 +5,7 @@ set -e
 cd /tmp
 
 DIR="/var/local-provision"
-REPO="..."
+REPO="https://github.com/akester/puppet-without-a-server.git"
 
 if [ "$( which wget )" == "" ]; then
     echo "Installing required packages [wget]..."

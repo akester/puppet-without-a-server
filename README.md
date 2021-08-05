@@ -13,5 +13,5 @@ detailed on [this blog post](https://aikester.com/2021/puppet-without-a-puppet-s
 Use this snippet (as root):
 
 ```bash
-curl -s ...init.sh | bash
+curl -s https://raw.githubusercontent.com/akester/puppet-without-a-server/master/init.sh | bash
 ```
